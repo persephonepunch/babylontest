@@ -1,0 +1,297 @@
+{
+    "asset": {
+        "copyright": "2020 (c) Adobe Inc.",
+        "generator": "Adobe Dimension - b6c6386da714573e1c60e92e900169531bbd057d",
+        "version": "2.0"
+    },
+    "accessors": [
+        {
+            "bufferView": 0,
+            "componentType": 5126,
+            "count": 51136,
+            "type": "VEC3",
+            "max": [
+                0.013652839697897435,
+                0.13955111801624299,
+                0.013213380239903927
+            ],
+            "min": [
+                -0.013650200329720974,
+                0.10859910398721695,
+                -0.013219129294157029
+            ]
+        },
+        {
+            "bufferView": 1,
+            "componentType": 5126,
+            "count": 51136,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 2,
+            "componentType": 5126,
+            "count": 51136,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 3,
+            "componentType": 5125,
+            "count": 76704,
+            "type": "SCALAR",
+            "max": [
+                51135.0
+            ],
+            "min": [
+                0.0
+            ]
+        },
+        {
+            "bufferView": 4,
+            "componentType": 5126,
+            "count": 52736,
+            "type": "VEC3",
+            "max": [
+                0.019848069176077844,
+                0.11798734217882157,
+                0.019848069176077844
+            ],
+            "min": [
+                -0.019848069176077844,
+                0.0,
+                -0.019848069176077844
+            ]
+        },
+        {
+            "bufferView": 5,
+            "componentType": 5126,
+            "count": 52736,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 6,
+            "componentType": 5126,
+            "count": 52736,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 7,
+            "componentType": 5125,
+            "count": 79104,
+            "type": "SCALAR",
+            "max": [
+                52735.0
+            ],
+            "min": [
+                0.0
+            ]
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 613632,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 613632,
+            "byteLength": 613632,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 1227264,
+            "byteLength": 409088,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 1636352,
+            "byteLength": 306816,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 1943168,
+            "byteLength": 632832,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 2576000,
+            "byteLength": 632832,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 3208832,
+            "byteLength": 421888,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 3630720,
+            "byteLength": 316416,
+            "target": 34963
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 3947136,
+            "uri": "bottlenew_binary.bin"
+        }
+    ],
+    "cameras": [
+        {
+            "perspective": {
+                "znear": 0.000010000000656873454,
+                "yfov": 0.6024156808853149,
+                "zfar": 2.0,
+                "aspectRatio": 1.3333333730697632
+            },
+            "type": "perspective",
+            "name": "render_camera"
+        }
+    ],
+    "images": [
+        {
+            "name": "composited_baseColor_opacity",
+            "uri": "bottlenew_images/composited_baseColor_opacity.png",
+            "mimeType": "image/png"
+        },
+        {
+            "name": "composited_roughness",
+            "uri": "bottlenew_images/composited_roughness.png",
+            "mimeType": "image/png"
+        }
+    ],
+    "materials": [
+        {
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.2409999966621399
+            },
+            "name": "Lid Material",
+            "doubleSided": true
+        },
+        {
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 0
+                },
+                "metallicFactor": 0.0,
+                "metallicRoughnessTexture": {
+                    "index": 1
+                }
+            },
+            "alphaMode": "MASK",
+            "name": "Bottle Material",
+            "doubleSided": true
+        }
+    ],
+    "meshes": [
+        {
+            "name": "Lid 2",
+            "primitives": [
+                {
+                    "attributes": {
+                        "TEXCOORD_0": 2,
+                        "NORMAL": 1,
+                        "POSITION": 0
+                    },
+                    "indices": 3,
+                    "material": 0
+                }
+            ]
+        },
+        {
+            "name": "Bottle 2",
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 4,
+                        "NORMAL": 5,
+                        "TEXCOORD_0": 6
+                    },
+                    "indices": 7,
+                    "material": 1
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "translation": [
+                1.066001534461975,
+                0.29999998211860659,
+                0.5206344127655029
+            ],
+            "rotation": [
+                -0.12059047073125839,
+                0.379409521818161,
+                0.04995020851492882,
+                0.9159756302833557
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                0.9999999403953552
+            ],
+            "camera": 0,
+            "name": "render_camera_n3d"
+        },
+        {
+            "children": [
+                2,
+                3
+            ],
+            "translation": [
+                0.0,
+                0.0,
+                2.38418573772492e-9
+            ],
+            "name": "flipBottle"
+        },
+        {
+            "mesh": 0,
+            "name": "Lid 2"
+        },
+        {
+            "mesh": 1,
+            "name": "Bottle 2"
+        }
+    ],
+    "samplers": [
+        {},
+        {}
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0,
+                1
+            ],
+            "name": "scene"
+        }
+    ],
+    "textures": [
+        {
+            "name": "composited_baseColor_opacity",
+            "sampler": 0,
+            "source": 0
+        },
+        {
+            "name": "composited_roughness",
+            "sampler": 1,
+            "source": 1
+        }
+    ],
+    "scene": 0
+}
